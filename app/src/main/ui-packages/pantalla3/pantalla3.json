@@ -1,0 +1,227 @@
+{
+  "name": "pantalla3",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Bi73XFRYyRsPzCqdduoBRr",
+    "node": "18:174",
+    "version": "4171738024",
+    "component-id": "27724eda4ff3783448263e4bdc93c201955bc4af"
+  },
+  "default": "pantalla3",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "nombreTitulo"
+      },
+      {
+        "type": "vector",
+        "id": "transparente"
+      },
+      {
+        "type": "group",
+        "id": "mensajeInstrucciones"
+      },
+      {
+        "type": "vector",
+        "id": "parrafoInstrucioens"
+      },
+      {
+        "type": "text",
+        "id": "messageInstrucciones"
+      },
+      {
+        "type": "image",
+        "id": "btncloseInstrucciones"
+      }
+    ],
+    "modes": {
+      "pantalla3": {
+        "rules": [
+          {
+            "id": "top_level",
+            "stroke-width": "1.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "169.52380952380955",
+              "saturation": "0.48461538461538456",
+              "value": "0.5098039215686274"
+            },
+            "is-structured": "false",
+            "children": [
+              "nombreTitulo",
+              "transparente",
+              "mensajeInstrucciones"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "nombreTitulo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "8.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-268.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "169.52380952380955",
+              "saturation": "0.48461538461538456",
+              "value": "0.5098039215686274"
+            },
+            "text-content": "FIGM-ANDRO \nGAME",
+            "overflow": "visible",
+            "text-size": "50.0",
+            "line-height": "1.25",
+            "typeface": "Jua"
+          },
+          {
+            "id": "transparente",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "390.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "844.0"
+              }
+            },
+            "vector-content": "transparente.svg"
+          },
+          {
+            "id": "mensajeInstrucciones",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "42.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "368.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "306.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "252.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "parrafoInstrucioens",
+              "messageInstrucciones",
+              "btncloseInstrucciones"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "parrafoInstrucioens",
+            "border-radius": "20.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "306.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "252.0"
+              }
+            },
+            "vector-content": "parrafo_instrucioens.svg"
+          },
+          {
+            "id": "messageInstrucciones",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.5"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "74.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Haz tap en el boton ganar",
+            "overflow": "visible",
+            "text-size": "24.0",
+            "line-height": "1.25",
+            "typeface": "Jua"
+          },
+          {
+            "id": "btncloseInstrucciones",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "122.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "148.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "63.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "58.0"
+              }
+            },
+            "image-content": "btnclose_instrucciones.png",
+            "scale": "contain"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "pantalla3",
+      "size": {
+        "width": 390.0,
+        "height": 844.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

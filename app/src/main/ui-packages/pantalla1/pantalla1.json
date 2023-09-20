@@ -1,0 +1,442 @@
+{
+  "name": "pantalla1",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Bi73XFRYyRsPzCqdduoBRr",
+    "node": "18:172",
+    "version": "4171787102",
+    "component-id": "9c8534a009f05dfa5987fef2dbb7e3cd463e63b1"
+  },
+  "default": "pantalla1",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "logoAndroid"
+      },
+      {
+        "type": "text",
+        "id": "nombreIngeniero"
+      },
+      {
+        "type": "text",
+        "id": "descripcion"
+      },
+      {
+        "type": "group",
+        "id": "botonIngresar"
+      },
+      {
+        "type": "group",
+        "id": "telefono"
+      },
+      {
+        "type": "group",
+        "id": "textEmail"
+      },
+      {
+        "type": "vector",
+        "id": "btnIngresar"
+      },
+      {
+        "type": "text",
+        "id": "textbtnIngresar"
+      },
+      {
+        "type": "text",
+        "id": "telefono1"
+      },
+      {
+        "type": "group",
+        "id": "logophone"
+      },
+      {
+        "type": "vector",
+        "id": "Vector 189"
+      },
+      {
+        "type": "text",
+        "id": "email"
+      },
+      {
+        "type": "group",
+        "id": "logoemail"
+      }
+    ],
+    "modes": {
+      "pantalla1": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "logoAndroid",
+              "nombreIngeniero",
+              "descripcion",
+              "botonIngresar",
+              "telefono",
+              "textEmail"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "169.52380952380955",
+              "saturation": "0.48461538461538456",
+              "value": "0.5098039215686274"
+            }
+          },
+          {
+            "id": "logoAndroid",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "85.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "193.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "195.0"
+              }
+            },
+            "image-content": "logo_android.png",
+            "scale": "cover"
+          },
+          {
+            "id": "nombreIngeniero",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "315.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$nombreIngeniero",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "32.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "descripcion",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "388.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Android Developer",
+            "overflow": "visible",
+            "text-align": "left",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "botonIngresar",
+            "border-radius": "10.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "71.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "496.0"
+              }
+            },
+            "tap-handler": "$botonIngresar",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "249.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "84.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "btnIngresar",
+              "textbtnIngresar"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "telefono",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "646.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "146.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "telefono1",
+              "logophone"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "textEmail",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "721.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "264.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "email",
+              "logoemail"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "btnIngresar",
+            "border-radius": "10.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "249.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "84.0"
+              }
+            },
+            "vector-content": "btn_ingresar.svg"
+          },
+          {
+            "id": "textbtnIngresar",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "169.52380952380955",
+              "saturation": "0.48461538461538456",
+              "value": "0.5098039215686274"
+            },
+            "text-content": "Ingresar",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "32.0",
+            "line-height": "1.25",
+            "typeface": "Jua"
+          },
+          {
+            "id": "telefono1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "14.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "3.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": " telf: 942 010 955",
+            "overflow": "visible",
+            "text-align": "left",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "logophone",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Vector 189"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Vector 189",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "4.922210693359375"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "2.414215087890625"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "19.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "19.0"
+              }
+            },
+            "vector-content": "vector_189.svg"
+          },
+          {
+            "id": "email",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "13.5"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "3.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "manuel.gonzales13@unmsm.edu.pe",
+            "overflow": "visible",
+            "text-align": "left",
+            "line-height": "1.2102272851126534",
+            "typeface": "Inter"
+          },
+          {
+            "id": "logoemail",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "clip-content": "false"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "nombreIngeniero": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "botonIngresar": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "pantalla1",
+      "size": {
+        "width": 390.0,
+        "height": 844.0
+      },
+      "parameters": {
+        "nombreIngeniero": "Manuel Gonzales"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

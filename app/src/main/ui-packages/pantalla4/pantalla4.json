@@ -1,0 +1,179 @@
+{
+  "name": "pantalla4",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Bi73XFRYyRsPzCqdduoBRr",
+    "node": "18:175",
+    "version": "4171738024",
+    "component-id": "bdfa31aa4c24d0450882bc2a946397b654e5aedb"
+  },
+  "default": "pantalla4",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "nombreTitulo"
+      },
+      {
+        "type": "group",
+        "id": "btnGanar"
+      },
+      {
+        "type": "vector",
+        "id": "botonGanar"
+      },
+      {
+        "type": "text",
+        "id": "textGanar"
+      }
+    ],
+    "modes": {
+      "pantalla4": {
+        "rules": [
+          {
+            "id": "top_level",
+            "stroke-width": "1.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "169.52380952380955",
+              "saturation": "0.48461538461538456",
+              "value": "0.5098039215686274"
+            },
+            "is-structured": "false",
+            "children": [
+              "nombreTitulo",
+              "btnGanar"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "nombreTitulo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "8.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-268.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "169.52380952380955",
+              "saturation": "0.48461538461538456",
+              "value": "0.5098039215686274"
+            },
+            "text-content": "FIGM-ANDRO \nGAME",
+            "overflow": "visible",
+            "text-size": "50.0",
+            "line-height": "1.25",
+            "typeface": "Jua"
+          },
+          {
+            "id": "btnGanar",
+            "border-radius": "30.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "102.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "188.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "78.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "botonGanar",
+              "textGanar"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "botonGanar",
+            "border-radius": "30.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "188.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "78.0"
+              }
+            },
+            "vector-content": "boton_ganar.svg"
+          },
+          {
+            "id": "textGanar",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "40.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "19.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "165.0",
+              "saturation": "0.016064257028112393",
+              "value": "0.9764705882352941"
+            },
+            "text-content": "!Ganar!",
+            "overflow": "visible",
+            "text-size": "32.0",
+            "line-height": "1.25",
+            "typeface": "Jua"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "pantalla4",
+      "size": {
+        "width": 390.0,
+        "height": 844.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

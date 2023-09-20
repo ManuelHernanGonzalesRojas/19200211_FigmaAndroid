@@ -1,0 +1,302 @@
+{
+  "name": "pantalla2",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "Bi73XFRYyRsPzCqdduoBRr",
+    "node": "18:173",
+    "version": "4171738024",
+    "component-id": "68f070c09c94e0dacce05178fb91385b59e550a7"
+  },
+  "default": "pantalla2",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "nombreJuego"
+      },
+      {
+        "type": "group",
+        "id": "btnStart"
+      },
+      {
+        "type": "group",
+        "id": "btnInstrucciones"
+      },
+      {
+        "type": "image",
+        "id": "btncerrar"
+      },
+      {
+        "type": "vector",
+        "id": "btnIniciar"
+      },
+      {
+        "type": "text",
+        "id": "textStart"
+      },
+      {
+        "type": "vector",
+        "id": "btnInstrucciones1"
+      },
+      {
+        "type": "text",
+        "id": "textInstrucciones"
+      }
+    ],
+    "modes": {
+      "pantalla2": {
+        "rules": [
+          {
+            "id": "top_level",
+            "stroke-width": "1.0",
+            "stroke-color": {
+              "alpha": "1.0",
+              "hue": "169.52380952380955",
+              "saturation": "0.48461538461538456",
+              "value": "0.5098039215686274"
+            },
+            "is-structured": "false",
+            "children": [
+              "nombreJuego",
+              "btnStart",
+              "btnInstrucciones",
+              "btncerrar"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "nombreJuego",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "8.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-268.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "169.52380952380955",
+              "saturation": "0.48461538461538456",
+              "value": "0.5098039215686274"
+            },
+            "text-content": "FIGM-ANDRO \nGAME",
+            "overflow": "visible",
+            "text-size": "50.0",
+            "line-height": "1.25",
+            "typeface": "Jua"
+          },
+          {
+            "id": "btnStart",
+            "border-radius": "30.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "102.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "188.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "78.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "btnIniciar",
+              "textStart"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "btnInstrucciones",
+            "border-radius": "30.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "102.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "494.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "188.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "78.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "btnInstrucciones1",
+              "textInstrucciones"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "btncerrar",
+            "opacity": "0.30000001192092896",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "322.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "14.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "63.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "58.0"
+              }
+            },
+            "image-content": "btncerrar.png",
+            "scale": "contain"
+          },
+          {
+            "id": "btnIniciar",
+            "border-radius": "30.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "188.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "78.0"
+              }
+            },
+            "vector-content": "btn_iniciar.svg"
+          },
+          {
+            "id": "textStart",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "52.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "19.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "169.52380952380955",
+              "saturation": "0.48461538461538456",
+              "value": "0.5098039215686274"
+            },
+            "text-content": "Start",
+            "overflow": "visible",
+            "text-size": "32.0",
+            "line-height": "1.25",
+            "typeface": "Jua"
+          },
+          {
+            "id": "btnInstrucciones1",
+            "border-radius": "30.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "188.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "78.0"
+              }
+            },
+            "vector-content": "btn_instrucciones.svg"
+          },
+          {
+            "id": "textInstrucciones",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "29.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "169.52380952380955",
+              "saturation": "0.48461538461538456",
+              "value": "0.5098039215686274"
+            },
+            "text-content": "Instrucciones",
+            "overflow": "visible",
+            "text-size": "24.0",
+            "line-height": "1.25",
+            "typeface": "Jua"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "pantalla2",
+      "size": {
+        "width": 390.0,
+        "height": 844.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
